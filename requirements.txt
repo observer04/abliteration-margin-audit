@@ -1,0 +1,4 @@
+# Figures and pure Python audit checks. No model or GPU dependencies.
+matplotlib==3.11.2
+numpy==2.5.4
+pytest==9.2.0

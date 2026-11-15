@@ -1,0 +1,10 @@
+# Archived experiment dependencies. Install only on a remote GPU host.
+# Original payloads and harness wiring are also required; see experiments/README.md.
+torch==2.11.0
+transformers==5.22.1
+accelerate==1.15.0
+peft
+safetensors
+huggingface_hub==2.4.0
+numpy==2.5.4
+auditkit @ git+https://github.com/Lexsi-Labs/AuditKIT.git@1444ba51afc927cf33eeebf9427174491b750d29
